@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box ;
+   }
+
+
+
+
+
+   body{ 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+    background-image: url(/assets/fundo-dinamico-gradiente-abstrato-laranja-e-preto_437781-1088.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.login {
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* espaço entre os elementos */
+  background-color: rgba(255, 255, 255, 0.1); /* opcional: leve fundo translúcido */
+  padding: 30px;
+  border-radius: 10px;
+}
+h1{
+    color: white;
+}
+h2{
+    color:rgb(216, 215, 215);
+}
+
+button{
+    background-color: rgb(255, 145, 0);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    height: 35px;
+    width: 250px;
+    border: 1px solid #23504a;
+    border-radius: 15px;
+    
+}
+
+.complemento-login{
+    font-family:'Times New Roman', Times, serif;
+     color: rgb(248, 252, 252);  
+}
+a{
+    color:rgb(139, 170, 142)
+}
+p{
+    color:rgb(248,252,252)
+}
